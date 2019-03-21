@@ -34,18 +34,9 @@
         <video class="video" src="intro2.mp4" autoplay loop />
     </div>
     <div class="audio">
-        <audio controls autoplay muted>
+        <audio controls autoplay>
             <source src="audio.mp3" type="audio/mpeg" />
         </audio>
     </div>
-    <script>
-        var audio = document.querySelector('.audio audio');        
-
-        setTimeout(function(){
-            audio.play();
-            audio.muted = false;
-            console.log('Audio start');
-        }, 2000);
-    </script>
 </body>
 </html>
