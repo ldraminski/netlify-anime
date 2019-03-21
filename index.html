@@ -39,8 +39,12 @@
         </audio>
     </div>
     <script>
-        var audio = document.querySelector('.audio audio');
-        audio.play();
+        var audio = document.querySelector('.audio audio');        
+
+        setTimeout(function(){
+            audio.play();
+            console.log('Audio start');
+        }, 2000);
     </script>
 </body>
 </html>
